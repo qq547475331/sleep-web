@@ -1,11 +1,12 @@
 name = "sleep-tracker-api"
 main = "worker/index.js"
 compatibility_date = "2024-01-01"
+pages_build_output_dir = "dist"
 
 [[kv_namespaces]]
 binding = "SLEEP_KV"
-id = "your-kv-namespace-id"
-preview_id = "your-preview-kv-namespace-id"
+id = "70267fa011d045b0ac8cba38d4b38464"
+preview_id = "5456fd79813848b99c8f2e3e727677bf"
 
 [vars]
 ENVIRONMENT = "production"
